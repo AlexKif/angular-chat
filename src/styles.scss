@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+.main {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.app-chat {
+  margin-left: 50px;
+}
+
+.selected {
+  background: #dadada;
+}
+
+li {
+  cursor: pointer;
+}
+
+.message {
+  margin-bottom: 7px;
+}

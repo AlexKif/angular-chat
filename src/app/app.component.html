@@ -1,0 +1,14 @@
+<header>
+    <h1>Welcome to ChatBot!</h1>
+</header>
+<section class="main">
+  <aside>
+    <contact-list
+      [contacts]="contacts"
+      (select)="selectContact($event)">
+    </contact-list>
+  </aside>
+  <section class="app-chat">
+    <app-chat [contact]="selectedContact" [bots]="bots"></app-chat>
+  </section>
+</section>

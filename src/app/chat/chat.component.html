@@ -1,0 +1,8 @@
+<h1>Chat {{contact?.name}}</h1>
+<section *ngFor="let m of bots" class="message">
+  Sender: {{m.name}},<br> Message: {{m.message}}
+</section>
+<app-history></app-history>
+
+<app-message-form (message)="printMessage($event)"></app-message-form>
+
